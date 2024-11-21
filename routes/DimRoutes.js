@@ -3,6 +3,6 @@ import { getDis } from "../controllers/DImControllers.js";
 
 const dimRoutes = Router();
 
-dimRoutes.post("/distance", getDis);
+dimRoutes.get("/distance", getDis);
 
 export default dimRoutes;
