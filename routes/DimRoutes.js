@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getDis } from "../controllers/DImControllers.js";
+import { getDis } from "../controllers/DimControllers.js";
 
 const dimRoutes = Router();
 
