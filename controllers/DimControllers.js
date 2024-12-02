@@ -20,7 +20,9 @@ export const getDis = async (request, response, next) => {
 			headers: { "Content-Type": "application/json" },
 		});
 
-		const responseData = res.data.data;
+		console.log(res.data);
+
+		const responseData = res.data;
 		console.log(responseData);
 
 		await docRef.set(
